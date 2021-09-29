@@ -1,0 +1,364 @@
+/* -------------------------NAVBAR------------------------------------- */
+nav{
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    /**padding: 1%;
+    padding-left: 12%;
+    padding-right: 12%;**/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav ul{
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+nav img{
+    width: 50px;
+}
+.sandwich{
+    width: 25px;
+}
+.navbar:hover {
+    color: blue;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 590;
+    text-decoration: none;
+}
+
+/*-------ANIMATION FOR LOL WTF TREND ICONS-----*/
+.navbar-lol:hover {
+    animation: Moving;
+    position: absolute;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: 3s;
+    -webkit-animation-iteration-count: 3s;
+
+}
+@-webkit-keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+@keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.navbar-win:hover {
+    animation: Moving;
+    position: absolute;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: 3s;
+    -webkit-animation-iteration-count: 3s;
+}
+
+@-webkit-keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.navbar-trend:hover {
+    animation: Moving;
+    position: absolute;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: 3s;
+    -webkit-animation-iteration-count: 3s;
+}
+
+@-webkit-keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes Moving {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* ------------------------COLUMNS AND CONTAINER LAYOUT------------------------- */
+.row{
+    /* only contains column1 and column2 */
+    margin-top: 2%;
+    width: 78%;        
+    /* padding: 10px;
+    margin: 10px; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+
+.column1{
+    margin-right: 2.5%;
+    width: 70%;
+    /* background-color: red; */
+    /* background-color: lightblue; */
+}
+
+.column2{
+    width: 30%;
+    /* background-color: yellowgreen; */
+}
+
+.container{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ------------------------COLUMN 1: FEATURED ARTICLE------------------------- */
+.featured-article img{
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    color: #222 !important;
+    font-size: 2.25rem;
+    line-height: 1;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.featured-article p{
+    padding-left: 2%;
+    padding-bottom:2%;
+}
+
+
+/* ------------------------COLUMN 1: SECONDARY ARTICLES------------------------- */
+/* centering contributor */
+.secondary-articles .container{
+    /* color: red; */
+    display: flex;
+}
+
+.contributor{
+    justify-content: flex-start;
+    display: flex;
+    align-content: center;
+    /* vertical-align: middle; */
+    margin-top: 4%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    /* display: block; */
+}
+
+.secondary-articles .article-preview{
+    height: 100%;
+    margin-right: 20px;
+} 
+
+
+
+/* ------------------------COLUMN 1: SHOPPING------------------------- */
+.shopping .container{
+    border-top: 10px solid hotpink;
+}
+
+.shopping .container h2{
+    padding-left: 2%;
+    color: hotpink;
+}
+
+.primary-container .article-preview{
+    width:45%;
+    margin-right:10px;
+    padding-left:2%;
+    padding-bottom: 5%;
+}
+.shopping .primary-container{
+    display: flex;
+    /* justify-content: space-between */
+}
+    
+.article-preview{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.shopping .secondary-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secondary-container .article-preview{
+    width:100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.secondary-container a{
+    font-size: small;
+}
+
+.shopping-article {
+    flex-basis: 100%;
+    padding: 1%
+}
+
+.third-container {
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+}
+
+.third-container a{
+    color:#6495ED;
+    font-weight: bold;
+}
+/* ------------------------COLUMN 2------------------------- */
+
+.column2 .container{
+    border-top: 10px solid purple;
+}
+
+.column2 .container img{
+    /* border: 1px solid red;
+    width: 95%;
+    margin: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.column2 .container h2{
+    padding-left: 5%;
+    color: purple;
+}
+
+.column2 .container p{
+    padding:2%;
+}
+/* ------------------------NAV: DROPDOWN MENU------------------------- */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .left_section {
+      display: block;
+      background-color: #fff;
+      overflow-x: hidden;
+  }
+
+
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+
+/* ------------------------KEY HTML COMPONENTS------------------------- */
+html {
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: #e2e2e2;
+}
+
+p{
+    margin: 0%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    color: blue;
+}

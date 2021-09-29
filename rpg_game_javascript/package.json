@@ -1,0 +1,29 @@
+{
+  "name": "rpg-game-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kskirilov/rpg-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kskirilov/rpg-game/issues"
+  },
+  "homepage": "https://github.com/kskirilov/rpg-game#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+  
+  
+  }
+

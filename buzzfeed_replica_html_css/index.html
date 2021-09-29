@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<head>
+	<title>BuzzFeed</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="BuzzFeed" />
+    <meta name="description" content="BuzzFeed has breaking news, vital journalism, quizzes, videos, celeb news, Tasty food videos, recipes, DIY hacks, and all the trending buzz you’ll want to share with your friends. Copyright BuzzFeed, Inc. All rights reserved." />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- <body>
+    <nav>
+        <div>
+            <ul>
+                <li><a class="navbar-brand" href="https://www.buzzfeed.com/uk"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/news">News</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/quizzes">Quizzes</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/tvandmovies">TV & Movies</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/shopping">Shopping</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/celebrity">Celebrity</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/videos">Videos</a></li>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/animals">Animals</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a class ="navbar" href ="https://www.buzzfeed.com/auth/signin">Sign In</a></li>
+                <li><a><i class="fa fa-search"></i></a></li>
+                <li><a class ="navbar-lol" href = "https://www.buzzfeed.com/uk/lol"><img src="https://i.pinimg.com/originals/c1/78/e8/c178e8de86fa88e665a4928f84203a7e.png"></a></li> 
+                <li><a class ="navbar-win" href = "https://www.buzzfeed.com/uk/win"><img src="https://www.seekpng.com/png/detail/930-9305391_enhanced-23664-1513961023-1-buzzfeed-stickers-png.png"></a></li>
+                <li><a class ="navbar-trend" href = "https://www.buzzfeed.com/uk/trending"><img src="https://www.buzzfeed.com/static-assets/img/buzzfeed_arrow.e86a786d9e5e2250e1ed3e0ec95ba42d.png"></a></li>            
+            </ul>
+        </div>
+    </nav> -->
+
+
+    <body>
+
+        <!-- refactor the heck out of this nav-->
+        <nav>
+            <div>
+                <ul>
+                    <button id="button" class="collapsible"><li><a><i class="fa fa-bars"></i></a></li></button>
+                    <div class="menu_nav" id="more_nav">
+                        <div class="inner_nav">
+                            <div class="left_section">
+                                <nav class="links_section">
+                                    <h5>Pop Culture</h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/tvandmovies">TV & Movies</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/celebrity">Celebrity</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/bestoftheinternet">Best of the Internet</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/animals">Animals</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/music">Music</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/rewind">Rewind</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/books">Books</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/lgbtq">LQBTQ+</a></li>
+                                    </ul>
+                                </nav>
+    
+                                <nav class="links_section">
+                                    <h5>Quizzes</h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/quizzes">Latest</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/trending/quizzes">Trending</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/quizzes/food">Food</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/quizzes/love">Love</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/quizzes/trivia">Trivia</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/quizparty">Quiz Party</a></li>
+                                    </ul>
+                                </nav>
+    
+                                <nav class="links_section">
+                                    <h5><a href="https://www.buzzfeed.com/uk/Videos">Video</a></h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/videos">Latest</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/cocoabutter">Cocoa Butter</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/mominprogress">Mom in Progress</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/worthit">Worth It</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/unsolved">Unsolved True Crime</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/unsolved">Unsolved Supernatural</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/multiplayerbybuzzfeed">Multiplayer</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/perolike">Pero Like</a></li>
+                                    </ul>
+                                </nav>
+    
+                                <nav class="links_section">
+                                    <h5><a href="https://www.buzzfeed.com/uk/Lifestyle">Lifestyle</a></h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/asis">As/Is: Style</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/bringme">BringMe: Travel</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/goodful">Goodful: Wellness</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/nifty">Nifty: DIY</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/parents">Parents</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/food">Food</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/weddings">Weddings</a></li>
+                                    </ul>
+                                </nav>
+    
+                                <nav class="links_section">
+                                    <h5><a href="https://www.buzzfeed.com/uk/Community">Community</a></h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/community/about">What is Community?</a></li>
+                                        <li><a href="https://www.community.buzzfeed.com">Join Community!</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/community">Featured Posts</a></li>
+                                        <li><a href="https://www.buzzfeed.com/uk/community/leaderboard">Leaderboard</a></li>
+                                        
+                                    </ul>
+                                </nav>
+    
+                                <nav class="links_section">
+                                    <h5><a href="https://www.buzzfeed.com/uk/about">About</a></h5>
+                                    <ul>
+                                        <li><a href="https://www.buzzfeed.com/uk/about">About Us</a></li>
+                                        <li><a href="https://www.advertise.buzzfeed.com">Advertise</a></li>
+                                        <li><a href="https://www.buzfd.com">Investor Relations</a></li>
+                                        <li><a href="https://www.buzzfeed.com/about/jobs">Jobs</a></li>
+                                        <li><a href="https://www.bzfd.it/2LP9eNo">Merch</a></li>
+                                        <li><a href="https://www.buzzfeed.com/newsletters?origin=nav">Newsletters</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <li><a class="navbar-brand" href="https://www.buzzfeed.com/uk"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/news">News</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/quizzes">Quizzes</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/tvandmovies">TV & Movies</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/shopping">Shopping</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/celebrity">Celebrity</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/videos">Videos</a></li>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/uk/animals">Animals</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a class ="navbar" href ="https://www.buzzfeed.com/auth/signin">Sign In</a></li>
+                    <li><a><i class="fa fa-search"></i></a></li>
+                    <li><a class ="navbar-lol" href = "https://www.buzzfeed.com/uk/lol"><img src="https://i.pinimg.com/originals/c1/78/e8/c178e8de86fa88e665a4928f84203a7e.png"></a></li> 
+                    <li><a class ="navbar-win" href = "https://www.buzzfeed.com/uk/win"><img src="https://www.seekpng.com/png/detail/930-9305391_enhanced-23664-1513961023-1-buzzfeed-stickers-png.png"></a></li>
+                    <li><a class ="navbar-trend" href = "https://www.buzzfeed.com/uk/trending"><img src="https://www.buzzfeed.com/static-assets/img/buzzfeed_arrow.e86a786d9e5e2250e1ed3e0ec95ba42d.png"></a></li>            
+                </ul>
+            </div>
+        </nav>
+    
+    
+<!-- SPLIT PAGE IN 2 COLUMNS -->
+    <div class="row">
+
+        <!-- FIRST COLUMN DIV -->
+        <div class="column1">
+            <!-- featured article -->
+            <div class="container">
+                    <div class="featured-article">
+                        <!-- We have to use <a> link on both the image and header separately, else hover doesn't work :( -->
+                        <a href="https://www.buzzfeed.com/marvelkalu/black-leads-international-films"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/2/11/tmp/98603ea44d5e/tmp-name-2-7059-1627903192-12_dblwide.jpg?output-format=auto&output-quality=100"></a>
+                        <h1><a class="article-title" href="https://www.buzzfeed.com/marvelkalu/black-leads-international-films">17 Black-Led International Films And TV Shows That Are Total Must Watches</a></h1>
+                        <p>I'm rooting for everybody Black!</p>
+                    </div>
+            </div>
+
+            <!-- secondary articles -->
+            <div class="secondary-articles">
+                <!-- need to create containers with a split of (1) photo and (2) everything else -->
+                <div class="container">
+                    <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/4/7/campaign_images/a074b1877fa2/its-the-last-day-of-amazons-huge-makeup-sale-so-g-2-9930-1628063199-13_dblbig.jpg?output-format=auto&output-quality=auto&resize=300:*;">
+                    
+                    <div class="article-description">
+                        <h2 class="art"><a href="https://wleww.buzzfeed.com/aglover/amazon-makeup-sale-uk?origin=hpp">Amazon Are Having A Huge Makeup Sale Right Now, So Get Ready To Restock Your Beauty Bag</h2></a>
+                        <p>With deals on everything from Rimmel to L'Oréal, Maybelline, and NYX!</p>
+                        <div class="contributor">
+                            <img class="profile-pic" src="https://img.buzzfeed.com/buzzfeed-static/4l5_djviK.png?output-format=jpg&crop=380%3A380%3B34%2C93">
+                            <p><a href="https://www.buzzfeed.com/aglover">Amy Glover</a></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="container">
+                    <img class="article-preview" src = "https://img.buzzfeed.com/buzzfeed-static/static/2021-08/2/19/enhanced/796d17338878/original-7662-1627933521-34.jpg?crop=1243:829;0,0&output-format=auto&output-quality=auto&resize=300:*;">
+                    <div class="article-description">
+                        <h2><a href class="article-title" src="https://www.buzzfeed.com/jennaguillaume/90s-movies-you-loved-then-forgot-about">19 ‘90s Movies You Probably Loved Then Forgot About</h2></a>
+                        <p>"Oh YEAH I remember that" — you reading this post.</p>
+                        
+                        <div class="contributor">
+                            <img class="profile-pic" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/15/22/user_images/buzzfeed-prod-fastlane-03/jennaguillaume-v2-21474-1510803336-0_large.jpg?resize=100:100&quality=auto">
+                            <p><a href="https://www.buzzfeed.com/jennaguillaume">Jenna Guillaume</a></p>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="container">
+                    <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/17/tmp/a074b1877fa2/tmp-name-2-8869-1628010761-5_dblbig.jpg?output-format=auto&output-quality=auto&resize=300:*;">
+                    <div class="article-description">
+                        <h2><a href class="article-title"src="https://www.buzzfeednews.com/article/karolinawaclawiak/life-events-google-memories-facebook-grief">The New "Cinderella" Movie Just Released Its First Trailer, And I'm Already Obsessed</h2></a>
+                        <p>Billy Porter as a Fabulous Godmother? I'm sold.</p>
+                        <div class="contributor">
+                            <img class="profile-pic" src="https://img.buzzfeed.com/buzzfeed-static/static/2018-08/14/12/user_images/buzzfeed-prod-web-06/karolinawaclawiak-v2-22341-1534265628-0_large.jpg">
+                            <p><a href="https://www.buzzfeed.com/karolinawaclawiak">Karolina Waclawiak</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shopping">
+                <!-- single container border with 1 article on top and 4 articles on bottom
+                
+                    [  ] title </br> subtitle </br> time
+                    [] [] [] []
+                    t  t  t   t
+                    
+                    -->
+                <div class="container"> 
+                    <h2>Shopping &#128717;&#65039;</h2><br>
+                    <div class="primary-container">
+                        <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/13/campaign_images/98603ea44d5e/hairburst-are-having-a-buy-one-get-one-free-sale--2-8674-1627996329-1_dblbig.jpg?resize=575:*">
+                        <div>
+                            <h3><a href="https://www.buzzfeed.com/jasminnahar/hairburst-are-having-a-buy-one-get-one-free-sale-so-theres?origin=hshp">Hairburst Are Having A "Buy One Get One Free" Sale, So There's No Better Time To Try Them Out<br></h3></a>                          <p>Get your hair looking its best for less.</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-container">
+                        <div class="shopping-article">
+                            <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/14/campaign_images/a074b1877fa2/23-small-things-that-help-to-solve-big-problems-2-8609-1628000505-17_dblbig.jpg?downsize=340:227&output-format=auto">
+                            <a href="https://www.buzzfeed.com/valezabakolli/small-things-to-help-solve-big-problems?origin=hshp">23 Small Things That Help To Solve Big Problems</a>
+                        </div>   
+                        <div class="shopping-article">        
+                            <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/14/campaign_images/796d17338878/41-products-from-amazons-discounted-overstock-out-2-8711-1628000451-2_dblbig.jpg?downsize=340:227&output-format=auto">
+                            <a href="https://www.buzzfeed.com/aglover/best-overstock-deals-on-amazon?origin=hshp">41 Products From Amazon's Discounted 'Overstock' Outlet That You'll Probably Want To Order ASAP</a>
+                        </div>  
+                        <div class="shopping-article">
+                            <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/2/14/campaign_images/9998fde51e9f/20-hair-and-grooming-products-on-amazon-you-might-2-7230-1627913993-3_dblbig.jpg?downsize=340:227&output-format=auto">
+                            <a href="https://www.buzzfeed.com/xavierguillaumesingh/hair-and-grooming-amazon?origin=hshp">20 Hair And Grooming Products On Amazon You Might Just Want To Grab Right Now</a>
+                        </div>
+
+                        <div class="shopping-article">
+                            <img class="article-preview" src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/2/14/campaign_images/a074b1877fa2/25-products-thatll-let-you-join-in-on-home-beauty-2-7179-1627913980-9_dblbig.jpg?downsize=340:227&output-format=auto">
+                            <a href="https://www.buzzfeed.com/valezabakolli/products-to-get-in-on-trends-for-less?origin=hshp">25 Products That'll Let You Join In On Home, Beauty, And Fashion Trends For Less</a>
+                        </div>   
+                    </div>
+                    <div class="third-container">
+                      <a href= "https://www.buzzfeed.com/uk/shopping">See more shopping deals</a>
+                    </div>
+                </div>
+            </div> 
+        </div>       
+
+        <!-- SECOND COLUMN DIV-->
+        <div class="column2">
+            <!-- articles -->
+            <div class="container">
+                <h2> Trending Now </h2>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/30/18/tmp/d525fb0c78fd/tmp-name-2-4443-1627670190-6_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/andyneuenschwander/name-summer-olympic-sports-quiz">There Are 46 Events In The Summer Olympics, But I Bet You Can't Name 10</p></a>
+  
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/28/15/tmp/e453388b0517/tmp-name-2-970-1627485404-21_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/ajanibazile/storylines-that-ruined-tv-characters">15 TV Character Storylines That Never, Ever, EVER Should've Happened</p></a>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-03/6/20/tmp/954e251d8ee7/tmp-name-2-7974-1615061248-3_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/liablair295/pick-a-song-from-each-year-and-well-reveal-which-ez7tzca8ny">Pick Some Songs From 2005-2020 And We'll Tell You Which Disney Channel Actress You Are</p></a>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-05/26/12/campaign_images/adca38ac9083/drive-thru-employees-are-sharing-behind-the-scene-2-9330-1622033822-7_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/stephenlaconte/drive-thru-employees-share-secrets-tiktok-reddit">Drive-Thru Employees Are Sharing Behind-The-Scenes Secrets About Their Job, And They'll Make You So Paranoid</p></a>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/15/campaign_images/0a1b27cf756c/31-times-famous-people-were-nothing-but-rude-to-r-2-8724-1628003002-7_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/kaylayandoli/rude-celebrity-stories">31 Times Famous People Were Nothing But Rude To 'Regular' People and Let Them Down In The Worst Ways Possible</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/3/16/campaign_images/e453388b0517/jenna-dewan-opened-up-about-her-anxiety-over-chan-2-8856-1628006749-33_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeednews.com/article/leylamohammed/jenna-dewan-anxiety-channing-tatum-unavailable-giving-birth">Jenna Dewan Opened Up About Her Anxiety Over Channing Tatum Being “Unavailable” After She Gave Birth And Leaving Her Parenting “Without A Partner" For Weeks</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/28/0/tmp/a5fc03b0cd1e/tmp-name-2-1344-1627431153-17_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/angelicaamartinez/mildly-infuriating-fails-reddit">I'm Sorry But I Have Absolutely No Idea What These 19 People Were Thinking</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/2/16/tmp/42b413a73e4b/tmp-name-2-7440-1627923158-3_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/vannessajackson/chris-evens-responded-lizzo-pregnancy-tiktok">Chris Evans Finally Responded To Lizzo's Pregnancy Claims, And I'm Even More Convinced They Should Actually Date</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/28/19/tmp/9998fde51e9f/tmp-name-2-1323-1627499646-5_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/kristenharris1/celebrities-treated-unfairly-critics">Fans Are Pointing Out Which Celebrities Deserved Better From Critics And The Media</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/29/20/tmp/81bd535b1926/tmp-name-2-3093-1627591436-6_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/shelbyheinrich/men-women-questions-sex-love">Men Are Answering The Questions Women Are Too Embarrassed To Ask, And They Did Not Hold Back</a></p>
+
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-07/19/23/tmp/d89e490dc865/tmp-name-2-4780-1626738535-26_dblwide.jpg?output-format=auto&output-quality=auto&resize=350:*"/>
+                <p><a href="https://www.buzzfeed.com/meganeliscomb/tv-characters-unrealistic-finance">People Are Calling Out TV Characters Who Couldn't Have Really Afforded Their Lifestyles</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
